@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@cloudnative/health-connect": "^2.1.0",
+    "appmetrics-prometheus": "^3.0.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",

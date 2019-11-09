@@ -17,6 +17,9 @@ app.set('view engine', 'ejs');
 var health = require('@cloudnative/health-connect');
 var healthcheck = new health.HealthChecker();
 
+// prometheus setup
+var prometheus = require('appmetrics-prometheus').attach();
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
